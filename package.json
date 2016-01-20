@@ -1,0 +1,37 @@
+{
+  "name": "es6-migration-guide-modules",
+  "version": "1.0.0",
+  "description": "Example of ES5 vs ES6 modules compatibility ",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register test/*.js"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "mocha": "^2.3.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomastrajan/ultimate-es6-migration-guide-modules.git"
+  },
+  "keywords": [
+    "es5",
+    "es6",
+    "es2015",
+    "modules",
+    "compatibility",
+    "example",
+    "demonstration"
+  ],
+  "author": "Tomas Trajan <tomas.trajan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomastrajan/ultimate-es6-migration-guide-modules/issues"
+  },
+  "homepage": "https://github.com/tomastrajan/ultimate-es6-migration-guide-modules#readme"
+}
